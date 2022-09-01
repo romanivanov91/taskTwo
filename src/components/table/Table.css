@@ -1,0 +1,58 @@
+/*Стили таблицы*/
+.table {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.table_heading {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: rgb(159, 159, 182);
+}
+
+.table_heading_el {
+    width: 100%;
+    border: 1px solid black;
+    text-align: left;
+    margin: 0px;
+}
+
+.table_string {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: rgb(218, 218, 228);
+}
+
+.table_string_el {
+    width: 100%;
+    border: 0.5px solid black;
+    text-align: right;
+    margin: 0px;
+}
+
+.column_1 {
+    width: 5%;
+}
+.column_2 {
+    width: 10%;
+}
+.column_3 {
+    width: 25%;
+}
+.column_4 {
+    width: 30%;
+}
+.column_5 {
+    width: 30%;
+}
+
+
